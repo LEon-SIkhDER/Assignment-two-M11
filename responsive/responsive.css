@@ -35,4 +35,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .curriculum .card{
+        width: calc(100% - 16px);
+    }
 }
