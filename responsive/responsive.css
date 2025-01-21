@@ -2,7 +2,8 @@
 @media screen and (max-width:576px) {
     .header-logo h1,
     header nav,
-    header button{
+    header button,
+    .angle-icons{
         display: none;
     }
     header{
@@ -21,5 +22,17 @@
     }
     .banner-left{
         text-align: center;
+    }
+    .banner-right{
+        justify-content: center;
+    }
+    .banner-right img{
+        /* width: 100%; */
+        width: calc(100% - 16px);
+    }
+    /* curriculum */
+    .curriculum .cards{
+        flex-direction: column;
+        align-items: center;
     }
 }

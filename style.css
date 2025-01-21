@@ -99,3 +99,73 @@ header li:nth-child(4) a{
     color: #111111;
     margin: 24px 0;
 }
+/* curriculum  */
+.curriculum-headline{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px; 
+}
+.curriculum .cards{
+    justify-content: space-between;
+    gap: 29px;
+}
+.curriculum .card{
+    text-align: center;
+    padding: 53px 40px;
+    border-radius: 19px;
+    width: 367px;
+    box-shadow:inset 0 0 28px rgba(97, 97, 97, 0.05);
+    
+}
+.curriculum .card-1{
+    background: linear-gradient(#DEF5FF, white 50%);
+    border: 1px solid #DEF5FF;
+}
+.curriculum .card-2{
+    background: linear-gradient(#FFF4DC, white 50%);
+    border: 1px solid #FFF4DC;
+}
+.curriculum .card-3{
+    background: linear-gradient(#F2E8FF, white 50%);
+    border: 1px solid #F2E8FF;
+}
+.curriculum .card h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 33px 0;
+}
+.curriculum .card p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 33px;
+    color: #808080;
+}
+.curriculum .card a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.curriculum .card-1 a{
+    color: #64C8FF;
+}
+.curriculum .card-2 a{
+    color: #F0AA00;
+}
+.curriculum .card-3 a{
+    color: #8700FF;
+}
+.angle-icons{
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    margin-top: 80px;
+}
+.angle-icons span{
+    background: #FEA301;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+}
