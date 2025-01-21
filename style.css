@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* shared-css  */
+.d-flex{
+    display: flex;
+}
+.fix-width{
+    max-width: 1160px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+/* common-css */
+.common-btn{
+    border: none;
+    background: #FEA301;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    width:  200px;
+    height: 50px;
+    border-radius: 12px;
+}
+.bg-black{
+    background: #000;
+}
+
+
+/* header */
+header{
+    background: white;
+
+}
+.header-content{
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto !important;
+    
+}
+.header-logo{
+    align-items: center;
+}
+.header-logo h1{
+    margin-left: 10px;
+}
+header li{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 32px;
+}
+header li:nth-child(1) a{
+    color: #FEA301;
+}
+header li:nth-child(2) a{
+    color: #01ACFD;
+}
+header li:nth-child(3) a{
+    color: #05D4DF;
+}
+header li:nth-child(4) a{
+    color: #5D58EF;
+}
+.hamburgericon span{
+    display: none;
+    font-size: 30px;
+
+}
+/* banner  */
+.banner-content{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left{
+    max-width: 640px;
+}
+.banner-left h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-left h1 span:nth-child(1){
+    color: #FEA301;
+}
+.banner-left h1 span:nth-child(3){
+    color: #01ACFD;
+}
+
+.banner-left p{
+    font-size: 20px;
+    color: #111111;
+    margin: 24px 0;
+}

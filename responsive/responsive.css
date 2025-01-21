@@ -1,0 +1,25 @@
+
+@media screen and (max-width:576px) {
+    .header-logo h1,
+    header nav,
+    header button{
+        display: none;
+    }
+    header{
+        border: 1px solid #FEA301;
+    }
+    .fix-width{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .hamburgericon span{
+        display: block;
+    }
+    /* banner */
+    .banner-content{
+        flex-direction: column-reverse;
+    }
+    .banner-left{
+        text-align: center;
+    }
+}
