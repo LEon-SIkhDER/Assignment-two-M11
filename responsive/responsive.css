@@ -3,7 +3,8 @@
     .header-logo h1,
     header nav,
     header button,
-    .angle-icons{
+    .angle-icons,
+    .stories #box-1{
         display: none;
     }
     header{
@@ -17,6 +18,7 @@
         display: block;
     }
     /* banner */
+    
     .banner-content{
         flex-direction: column-reverse;
     }
@@ -37,5 +39,18 @@
     }
     .curriculum .card{
         width: calc(100% - 100px);
+    }
+    /* stories  */
+    .stories .boxes{
+        grid-template-columns: repeat(2, 40%);
+    }
+    .stories .box{
+        max-width: 100%;
+    }
+    .texts{
+        padding: 0 15px 28px 15px;
+    }
+    .box .button{
+        transform: scale(0.8) translateY(-32px);
     }
 }

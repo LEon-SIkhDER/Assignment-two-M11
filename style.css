@@ -100,6 +100,10 @@ header li:nth-child(4) a{
     margin: 24px 0;
 }
 /* curriculum  */
+.curriculum{
+    background-image: url(img/bg.png);
+    background-size: cover;
+}
 .curriculum-headline{
     font-size: 46px;
     font-weight: bold;
@@ -168,4 +172,83 @@ header li:nth-child(4) a{
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
+}
+/* stories  */
+.stories{
+    background:url(img/bg.png), linear-gradient(white, rgba(254, 161, 1, 0.3));
+    padding-bottom: 1px;
+}
+.stories h1{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+    justify-content: center;
+}
+#box-1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.box{
+    border-radius: 16px;
+    background: white;
+
+}
+.box img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.texts{
+    padding: 0 38px 28px 38px;
+}
+.texts .button{
+    font-size: 15px;
+    font-weight: 500;
+}
+.texts h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+/* box-1  */
+
+.box .button{
+    background: #95B226;
+    width: 175px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    transform: translateY(-24px);
+}
+#box-1 .button{
+    padding: 15px 0;
+    transform: translateY(-30px);
+    background: #3CD8E8;
+
+}
+#box-3 .button{
+    background: #5D58F0;
+}
+#box-5 .button{
+    width: 127px;
+}
+#box-1 h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#box-1 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.stories-content button{
+    display: block;
+    margin:  auto;
+    margin-top: 60px;
+
 }
