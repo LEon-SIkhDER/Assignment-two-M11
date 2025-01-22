@@ -252,3 +252,69 @@ header li:nth-child(4) a{
     margin-top: 60px;
 
 }
+marquee{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F0AA00;
+    margin-top: 20px;
+}
+marquee span{
+    color: green;
+}
+/* footer  */
+footer{
+    background: #01ACFD;
+    padding: 120px 0 180px 0;
+}
+.footer-content{
+    justify-content: space-between;
+}
+footer .logo img{
+    width: 83px;
+    height: 100%;
+    margin-right: 10px;
+}
+footer .logo{
+    width: 400px;
+}
+footer .logo p{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+footer .logo div{
+    align-items: center;
+    margin-left: -6px;
+    margin-bottom: 35px;
+
+}
+footer .logo h1{
+    width: 210px;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+/* nav-bar  */
+.nav-bar h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+.nav-bar ul li{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+/* icons  */
+.footer-icons h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+.footer-icons img{
+    margin-right: 10px;
+}
